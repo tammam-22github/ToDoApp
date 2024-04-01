@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block title %}
+Create Task
+{% endblock title %}
+{% block content %}
+{% load static %}
+<link href="{% static 'css/create.css' %}" rel="stylesheet">
+<div class="container">
+    <h3>Create your task.</h3>
+    <form method="post">
+        {% csrf_token %}
+        {{createform}}
+        <button type="submit" name="Confirm">Create</button>
+    </form>
+</div>
+{% endblock content %}

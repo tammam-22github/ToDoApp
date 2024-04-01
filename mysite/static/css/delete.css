@@ -1,0 +1,32 @@
+.container {
+    background-color: powderblue;
+    border-radius: 4px;
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+    margin: 4px;
+    padding: 4px;
+}
+
+span.span-delete {
+    color: red;
+    border-radius: 4px;
+}
+
+form {
+    border-radius: 4px;
+    margin: 4px;
+    padding: 4px;
+}
+
+button {
+    background-color: powderblue;
+    border-radius: 4px;
+    color: black;
+}
+
+a {
+    background-color: powderblue;
+    border-radius: 4px;
+    color: black;
+}

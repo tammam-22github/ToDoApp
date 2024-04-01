@@ -1,0 +1,45 @@
+div.container {
+    background-color: powderblue;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    border-radius: 4px;
+}
+
+div.container1 {
+    background-color: white;
+    color: black;
+    border-radius: 11px;
+    padding: 6px;
+    margin: 6px;
+    height: auto;
+}
+
+h3,
+h1 {
+    background-color: powderblue;
+    border-radius: 5px;
+    width: max-content;
+    margin: 5px;
+    height: fit-content;
+    padding: 5px;
+}
+
+input {
+    margin: 4px;
+    border-radius: 4px;
+    background-color: beige;
+}
+
+span.span,
+strike.strike {
+    background-color: aquamarine;
+    border-radius: 4px;
+    padding: 4px;
+    margin: auto;
+}
+
+a {
+    margin: 5px;
+    padding: 5px;
+}

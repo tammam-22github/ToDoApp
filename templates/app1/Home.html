@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block title %}
+Home
+{% endblock title %}
+{% block content %}
+{% load static %}
+<div class="go-to-do-list">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+    <h1>Welcome To My Site.</h1>
+    <p>Home Page.</p>
+    <a href="{% url 'app1:DoList' %}">Go To Do-List.</a>
+</div>
+{% endblock content %}

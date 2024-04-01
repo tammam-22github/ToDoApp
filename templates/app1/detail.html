@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block title %}
+Detail
+{% endblock title %}
+{% block content %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/detail.css' %}" />
+<div class="container" style="width:30cm ;padding:20px ;margin:10px;">
+    <p class="content">{{task}}</p>
+    <p>
+        <a class="update" href="{% url 'app1:Update' task.id %}" title="click to update">update</a>
+        &#160;
+        <a class="delete" href="{% url 'app1:Delete' task.id %}" title="click to delete">delete</a>
+    </p>
+</div>
+{% endblock content %}

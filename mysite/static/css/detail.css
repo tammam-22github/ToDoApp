@@ -1,0 +1,27 @@
+a.update{
+    background-color:yellow; 
+    border-radius:5px ;
+    padding:4px ;
+    color:cornflowerblue;
+}
+a.delete{
+    background-color:red;
+    border-radius:5px;
+    padding:4px;
+    color:cornflowerblue;
+}
+div.container{
+    border-radius: 4px;
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+    background-color: powderblue;
+    margin: 4px;
+    padding: 4px;
+}
+p.content{
+    background-color: cornflowerblue;
+    padding: 4px;
+    margin: 4px;
+    border-radius:55px;
+}

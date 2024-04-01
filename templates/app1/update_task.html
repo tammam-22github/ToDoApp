@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block title %}
+Update
+{% endblock title %}
+{% block content %}
+{% load static %}
+<link href="{% static 'css/update.css' %}" rel="stylesheet">
+<div class="container">
+    <h1>Update Task.</h1>
+    <form method="post">
+        {% csrf_token %}
+        {{form.as_p}}
+        <p class="update-p"><input type="submit" value="update"></p>
+    </form>
+</div>
+{% endblock content %}
